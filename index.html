@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Зарядка</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&family=Russo+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="heading">
+        <h1>Тренируйся дома!</h1>
+    </div>
+
+
+    <div class="slider">
+        <div class="item">
+            <img src="./m43.jpg" alt="Первый слайд">
+          
+            <div class="slideText">
+              <div class="arrow">
+                <img class="animationArrow" src="./1.png" alt="arrow">
+                <a class="slide-href" href="man/man.html">Упражнения для мужчин</a>
+                <img class="animationArrow" src="./11.png" alt="arrow">
+              </div>
+           </div>
+        </div>
+
+        <div class="item">
+            <img src="./w43.jpg" alt="Второй слайд">
+            <div class="slideText">
+              <div class="arrow">
+                <img class="animationArrow" src="./1.png" alt="arrow">
+                <a class="slide-href" href="woman/woman.html">Занятия для женщин</a>
+                <img class="animationArrow" src="./11.png" alt="arrow">
+              </div>
+          </div>
+        </div>
+
+        <div class="item">
+            <img src="./c43.jpg" alt="Третий слайд">
+            <div class="slideText">
+              <div class="arrow">
+                <img class="animationArrow" src="./1.png" alt="arrow">
+                <a class="slide-href" href="child/child.html">Детские занятия</a>
+                <img class="animationArrow" src="./11.png" alt="arrow">
+              </div> 
+          </div>
+        </div>
+        <a class="prev" onclick="minusSlide()">&#10094;</a>
+        <a class="next" onclick="plusSlide()">&#10095;</a>
+    </div>
+
+    <div class="slider-dots">
+        <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+            <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+            <span class="slider-dots_item" onclick="currentSlide(3)"></span> 
+    </div>
+
+    <div class="div-about">
+
+
+    <h2 class="about">Почему важна даже минимальная физическая активность?</h2>
+    <p>Физическая активность в любом возрасте положительно влияет на физическое и психическое здоровье, улучшает качество жизни. Живя в движении, взрослые люди могут снизить риски развития и предотвратить последствия заболеваний опорно-двигательного аппарата.</p>
+    
+    <h2 class="about">Оптимальные виды нагрузок для тренировок дома</h2>
+    <p>Не забывайте, что любую физическую активность нужно начинать с разминки. Она занимает всего 5-10 минут времени и позволяет подготовить ваше тело к более интенсивным нагрузкам. Что дает разминка? Повышает гибкость, снижает риски получения травм, убирает напряжение в мышцах и болезненные ощущения, увеличивает кровоток, улучшает производительность и позволяет выполнять движения более амплитудно.
+
+        Наиболее эффективными для похудения являются упражнения для всего тела, а не направленные на конкретные мышцы. Лучше их миксовать в одной тренировке, либо равномерно распределять в течение недели, нагружая в каждый из дней разные участки тела.
+        
+        Сосредоточьтесь на высокоинтенсивных занятиях, которые быстро увеличивают частоту сердечных сокращений и позволяют сбрасывать вес интенсивнее.</p>
+
+    <h2 class="about">Как приучить себя к спортивным занятиям дома?</h2>
+
+    <p>Чтобы тренировки дома не надоедали, придумайте для себя небольшие правила или ритуалы:<br>
+
+        ✔ Например, вы можете заниматься спортом, смотря любимую передачу, слушая подкаст или аудиокнигу.<br>
+        ✔ Делайте упражнения во время рекламных пауз в ваших любимых сериалах.<br>
+        ✔ Установите напоминания в своем телефоне или оставляйте заметки по дому, которые будут напоминать сделать зарядку или какое-то упражнение.<br>
+        ✔ Делитесь результатами и планами с близкими и друзьями, это поможет не сдать назад, когда лень будет брать верх.<br>
+        ✔ Ставьте себе цели, которые поддержат мотивацию, например, участие в небольшом забеге или необходимость влезть в любимое платье до определенной даты.<br>
+        ✔ Создайте расписание занятий.<br>
+        ✔ Купите новые лосины или кроссовки, если такой способ способен привести вас к действиям.<br>
+        ✔ Сделайте бытовую рутину похожей на тренировку, меняйте местами предметы обихода, чистите овощи, делая упражнение «стульчик у стенки» или найдите иной способ органично вписать нагрузки в свою ежедневную рутину.<br>
+        ✔ Кардиотренировку дома может заменить спуск и подъем по лестнице.<br>
+        </p>
+        <p>Поговаривают, что привычки формируются 21 день. Самое время проверить!</p>
+    </div>
+  
+  <p style="color: #e2dcc8; margin-left: 50px;">by Mariya Likhacheva. Сайт создан в учебных целях</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
